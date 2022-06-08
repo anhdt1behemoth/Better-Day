@@ -1,0 +1,267 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+  min-height: 100vh;
+  overflow: hidden;
+  width: 100% !important;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.7;
+  color: #ffffff;
+}
+.col-container {
+    position: absolute;
+    left: 200px;
+    top:100px;
+
+}
+.content-images {
+    position:absolute;
+    width: 720px;
+    min-height: 873px;
+}
+.images-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+}
+
+.text-box {
+    position: absolute;
+    width: 398px;
+    height: 108px;
+    left: 161px;
+    top: 340px;
+}
+.heading-primary {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 20px;
+}
+
+.heading-primary_main {
+    display: block;
+    font-size: 40px;
+    line-height: 44px;
+    text-align: center;
+    letter-spacing: 0.36px;
+}
+
+.heading-primary_sub {
+    display: block;
+    font-size: 40px;
+    line-height: 44px;
+    text-align: center;
+    letter-spacing: 0.36px;
+}
+
+.hot_line {
+    position: absolute;
+    width: 230px;
+    height: 24px;
+    left: 245px;
+    top: 769px;
+}
+
+.number {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 32px;
+}
+
+.number span {
+    color: #FFFFFF;
+    font-family: 'be Vietnam 100';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+
+.container {
+    width: 1440px;
+    background: wheat;
+    min-height: 837px;
+}
+/* Back */
+.forgot-login {
+    position: absolute;
+    width: 720px;
+    min-height: 837px;
+    left: 720px;
+    background: #FFFFFF;
+}
+
+.back .back-login {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 12px;
+}
+
+.back {
+    position: absolute;
+    width: 189px;
+    min-height: 40px;
+    left: 140px;
+    top: 70px;
+}
+
+/* Logo Back */
+
+.back-logo {
+    width: 40px;
+    min-height: 40px;
+    border: 1px solid #88B946;
+    border-radius: 100px;
+    cursor: pointer;
+}
+
+.back-logo .logo {
+    position: absolute;
+    width: 24px;
+    min-height: 24px;
+    left: 16px;
+    top: 8px;
+}
+
+.back-text .btn-again {
+    font-family: 'be Vietnam 100';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #333332;
+}
+
+/* images Forgot */
+.img-forgot {
+    position: absolute;
+    width: 160px;
+    min-height: 160px;
+    left: 280px;
+    top: 160px;
+}
+
+/* Forget text */
+.input-forget {
+    position: absolute;
+    width: 440px;
+    min-height: 292px;
+    left: 140px;
+    top: 332px;
+}
+
+.forget {
+    text-align: center;
+}
+.forget-style span {
+    font-family: 'be Vietnam 100';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    text-align: center;
+    line-height: 32px;
+    color: #333332;
+}
+
+/* Phone register */
+.phone-register {
+    position: absolute;
+    width: 440px;
+    min-height: 48px;
+    left: 140px;
+    top: 376px;
+}
+
+
+.phone {
+    font-family: 'be Vietnam 100';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    letter-spacing: -0.32px;
+    color: #6A6969;
+}
+
+
+/* input */
+.form-input {
+    position: absolute;
+    width: 440px;
+    height: 84px;
+    left: 140px;
+    top: 456px;
+    }
+    
+
+
+.design input {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 16px 0px 16px 20px;
+    gap: 12px;
+    width: 440px;
+    height: 52px;
+    background: #FDFDFD;
+    border: 1px solid #EBEBEB;
+    border-radius: 8px;
+}
+.design #fname {
+    border: 1px solid #EBEBEB;
+}
+
+.input-design #phone {
+    color: #333332;
+    font-family: 'be Vietnam 100';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.15px;
+}
+
+.take .btn-secondary{
+    position: absolute;
+    width: 440px;
+    height: 44px;
+    left: 140px;
+    top: 580px;
+    background: #88B946;
+    border-radius: 8px;
+    border: #88B946 1px solid;
+}
+
+.take-code .take {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 50px;
+    gap: 8px;
+}
+
+ .btn-secondary {
+    font-family: 'be Vietnam 100';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    color: #ffffff;
+}

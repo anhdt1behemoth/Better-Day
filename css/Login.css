@@ -1,0 +1,368 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+  height: 100%;
+  overflow: hidden;
+  width: 100% !important;
+  font-family: "Lato", sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.7;
+  color: #ffffff;
+}
+.col-container {
+    position: absolute;
+    left: 200px;
+    top:100px;
+
+}
+.content-images {
+    position:absolute;
+    width: 720px;
+    min-height: 873px;
+}
+.images-box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 16px;
+}
+
+.text-box {
+    position: absolute;
+    width: 398px;
+    height: 108px;
+    left: 161px;
+    top: 340px;
+}
+.heading-primary {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 20px;
+}
+
+.heading-primary_main {
+    display: block;
+    font-size: 40px;
+    line-height: 44px;
+    text-align: center;
+    letter-spacing: 0.36px;
+}
+
+.heading-primary_sub {
+    display: block;
+    font-size: 40px;
+    line-height: 44px;
+    text-align: center;
+    letter-spacing: 0.36px;
+}
+
+.hot_line {
+    position: absolute;
+    width: 230px;
+    height: 24px;
+    left: 245px;
+    top: 769px;
+}
+
+.number {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 32px;
+}
+
+.number span {
+    color: #FFFFFF;
+    font-family: 'be Vietnam 100';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+
+.container {
+    width: 1440px;
+    background: wheat;
+    min-height: 837px;
+}
+.header-box {
+    background: #ffffff;
+    position: absolute;
+    width: 720px;
+    min-height: 837px;
+    left: 720px;
+    top: 0px;
+}
+.header-box .logo-box {
+    position: absolute;
+    width: 106px;
+    height: 106px;
+    left: 307px;
+    top: 70px;
+}
+
+.wel-text {
+    position:absolute;
+    width: 244px;
+    min-height: 32px;
+    left: 238px;
+    top: 200px; 
+}
+
+.text-main {
+    font-family: 'be Vietnam 100';
+    font-style: normal;
+    color: #333332;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.line-box{
+    position: absolute;
+    width: 440px;
+    min-height: 0px;
+    left: 140px;
+    top: 336px;
+}
+
+.line {
+    border: 1px solid #EBEBEB;
+}
+
+.connect {
+    position: absolute;
+    width: 440px;
+    min-height: 48px;
+    left: 140px;
+    top: 256px;
+}
+.connect-network {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding:0px;
+    gap: 16px;
+}
+.fb-icons img{
+    width: 20px;
+    min-height: 20px;
+}
+
+.fb-text span {
+    color: #333332;
+}
+
+.connect-fb {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 50px;
+    gap: 8px;
+    width: 136px;
+    height: 48px;
+    cursor: pointer; 
+}
+
+.border-connect_box {
+    background: #FFFFFF;
+border: 1px solid #EBEBEB;
+border-radius: 8px;
+}
+
+.or-line_box {
+    position: absolute;
+    width: 61px;
+    min-height: 32px;
+    left: 329px;
+    top: 320px;
+    background: #ffffff;
+}
+.line_or {
+    color: #6A6969;
+    display: flex ;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 4px 12px;
+    gap: 4px;
+}
+
+.line_or h3 span {
+    font-family: 'be Vietnam 100';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+letter-spacing: -0.32px;
+}
+
+.form-control label{
+    color: #333332;
+}
+
+.form-input {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+    gap: 12px;
+}
+
+.input-design {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 14px 0px 14px 20px;
+    gap: 12px;
+}
+
+.input-design #fname {
+    width: 370px;
+    min-height: 20px;
+    border: #FFFFFF 1px solid;
+}
+
+.form-input  {
+    width: 440px;
+    min-height: 52px;
+    border: 1px solid #EBEBEB;
+}
+.form-control .form-login {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 28px;
+}
+.form-control {
+   position: absolute;
+   width: 440px;
+   min-height: 356px;
+   left: 140px; 
+   top: 368px;
+}
+
+.form-text .text {
+    font-family: 'be Vietnam 100';
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 20px;
+    color: #88B946;
+
+}
+
+.form-pass {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px 4px 0px 0px;
+    width: 440px;
+    min-height: 24px;
+    justify-content: space-between;
+}
+
+.btn-control #btn-primary {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 12px 50px;
+    gap: 8px;
+    width: 440px;
+    min-height: 44px;
+    background: #3267D9;
+    color: #ffffff;
+    border-radius: 8px;
+    border:#3267D9 1px solid;
+    cursor: pointer;
+}
+
+.btn-control #btn-success {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 12px 50px;
+    gap: 8px;
+    width: 440px;
+    min-height: 44px;
+    background: #88B946;
+    color: #ffffff;
+    border-radius: 8px;
+    border:#88B946 1px solid;
+    cursor: pointer;
+}
+
+.login-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+    gap: 16px;
+    width: 440px;
+    min-height: 104px;
+}
+
+.register-text {
+    position: absolute;
+    width: 247px;
+    min-height: 20px;
+    left: 237px;
+    top: 764px;
+}
+
+.register-text .register {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0px;
+    gap: 12px;
+}
+
+.text-reg #text-reg {
+    font-family: 'be Vietnam 100';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.15px;
+    color: #333332;
+}
+
+.text-reg {
+    width: 147px;
+    min-height: 20px;
+}
+
+.btn-reg {
+    width: 88px;
+    min-height: 20px;
+}
+
+.btn-reg #btn-reg {
+    font-family: 'be Vietnam 100';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    letter-spacing: -0.15px;
+    color: #88B946;
+    cursor: pointer;
+}
+
+.control {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 20px;
+}
