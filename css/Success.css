@@ -76,7 +76,7 @@
 
 .success {
     width: 50%;
-    height: auto;
+    min-height: auto;
     padding-top: 200px;
     padding-left: 242px;
 }
