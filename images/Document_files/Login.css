@@ -74,130 +74,119 @@
     letter-spacing: -0.32px;
 }
 
-.back-img {
-    display: flex;
-    width: 40px;
-    min-height: 40px;
-    border: 1px solid #88B946;
-    border-radius: 100px;
+/* Right */
+
+.right-login {
+    width: 50%;
+    min-height: auto;
+    padding-top: 70px;
+    padding-left: 140px;
 }
 
-.back-img p {
-    background: url(../images/Vector\ 175\ \(Stroke\).png);
-    width: 11.5px;
-    min-height: 5.5px;
+.right-images{
+    width: 106px;
+    min-height: 106px;
+
+}
+
+.images {
+    width: 106px;
+    min-height: 106px;
+    margin-left: 167px;
+    background: url(../images/image\ 2.png);
     background-size: cover;
 }
 
-.back-login {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding-top: 70px;
-}
-
-.back-text {
-    letter-spacing: -0.32px;
-}
-
-.back-text span {
-    font-family: 'be Vietnam 100' ,sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    padding-left: 12px;
-}
-
-
-/* Config */
-
-.forgot-login {
-    width: 50%;
-    min-height: auto;
-    padding-left: 220px;
-}
-
-
-.config-images {
-    width: 160px;
-    min-height: 160px;
-    padding-left: 150px;
-    padding-top: 40px;
-}
-.images-lock p{
-    width: 160px;
-    min-height: 160px;
-    background: url(../images/Frame\ 139\ \(1\).png);
-}
-
-.form-control {
-    width: 440px;
-    min-height: 320px;
-    padding-top: 12px;
-}
-
-.config-new {
-    width: auto;
+.right-text {
+    width: 100%;
     min-height: 32px;
-    text-align: center;
+    margin: 12px 104px;
 }
 
-.password-new span{
-    width: 248px;
-    min-height: 32px;
+.text-care {
+    width: 244px;
+}
+
+.text-care span {
     font-family: 'be Vietnam 100',sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 24px;
     line-height: 32px;
-    letter-spacing: 0.36px;
-    color: #333332;
+}
+.fb-icons {
+    width: 20px;
+    min-height: 20px;
+}
+.icons {
+    width: 20px;
+    min-height: 20px;
+    background: url(../images/fb.png);
+    background-size: cover;
 }
 
-.form-input {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 12px;
+.border-connect_box {
     width: 440px;
-    min-height: 84px;
-    padding-top: 12px;
-}
-
-.input-design {
+    min-height: 48px;
     display: flex;
     flex-direction: row;
+    align-items: flex-start;
+}
+
+.connect {
+    width: 136px;
+    min-height: 48px;
+    display: flex;
+    margin: 12px 16px;
+    flex-direction: row;
+    justify-content: center;
     align-items: center;
+    gap: 8px;
+    border: 1px solid #EBEBEB;
 }
 
-.design #fname {
-    width: 440px;
-    min-height: 52px;
-    padding: 14px 0px 14px 20px;
-    color: #A0A6B0;
-    font-family: 'be Vietnam 100' ,sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 20px;
-    letter-spacing: -0.15px;
+
+.icons-google {
+    width: 20px;
+    min-height: 20px;
+    background: url(../images/google.png);
+    background-size: cover;   
 }
 
-.design-logo {
+.icons-zalo {
+    width: 20px;
+    min-height: 20px;
+    background: url(../images/logo-zalo.jpeg);
+    background-size: cover;
+}
+
+
+.gap {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 4px 12px;
+    gap: 4px;
+}
+
+.brick {
     position: absolute;
-    margin-left: 400px;
-}
-
-.again #btn-reg{
     width: 440px;
-    min-height: 52px;
-    background: #88B946;
-    color: #FFFFFF;
-    border: 1px solid #88B946;
-    border-radius: 8px;
+    min-height: 0px;
+}
+.brick-line {
+    border: 1px solid #EBEBEB;
+}
+.brick-text span {
+    width: 61px ;
+    min-height: 32px;
+    background: #FFFFFF;
 }
 
-.btn-reg {
-    padding-top: 32px;
+.brick-text {
+   width: 61px ;
+   min-height: 32px;
+   position: relative;
+   padding-left: 180px;
+   margin-top: -10px;
 }
