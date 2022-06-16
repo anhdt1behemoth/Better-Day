@@ -13,6 +13,8 @@
 
 .content-images {
     width: 50%;
+    display: flex;
+    flex-direction: column ;
     background: url(../images/shutterstock_1169699956\ 2.png);
     background-size: cover;
 }
@@ -47,20 +49,15 @@
 }
 
 .text-box {
-    padding-top: 450px;
+   margin: auto;
 }
 
 .footer-text {
-    text-align: center;
+    padding: 40px;
 }
 
 .footer {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding-top: 480px;
-    padding-left: 320px;
-    gap: 32px;
+  text-align: center;
 }
 
 .footer_main {
@@ -77,16 +74,9 @@
 /* Right */
 
 .right-login {
-    width: 50%;
+    width: 440px;
     min-height: auto;
-    padding-top: 70px;
-    padding-left: 264px;
-}
-
-.right-images{
-    width: 106px;
-    min-height: 106px;
-
+    margin: auto;
 }
 
 .images {
@@ -98,9 +88,9 @@
 }
 
 .right-text {
-    width: 100%;
-    min-height: 32px;
-    margin: 12px 104px;
+    display: flex;
+    justify-content: center;
+    padding: 24px;
 }
 
 .text-care {
@@ -166,7 +156,6 @@
     display: flex;
     flex-direction: row;
     align-items: flex-start;
-    padding: 4px 12px;
     gap: 4px;
 }
 
@@ -190,7 +179,7 @@
 }
 
 .brick-text {
-    background: #FFFFFF;
+   background: #FFFFFF;
    display: flex;
    flex-direction: row;
    align-items: flex-start;
@@ -329,9 +318,11 @@
 }
 
 .register-text {
-    width: 247px;
+   width: 440px;
     min-height: 20px;
-    margin: 300px 100px;
+    display: flex;
+    justify-content: center;
+    
 }
 
 .register {
@@ -343,8 +334,7 @@
 }
 
 .text-reg {
-    width: 147px;
-    min-height: 20px;
+   
 }
 .text-reg #text-reg {
     font-family: 'be Vietnam 100', sans-serif;
