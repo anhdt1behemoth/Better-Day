@@ -11,12 +11,12 @@
     width: 100vw;
 }
 
-.content-images {
+.sign-images {
     width: 50%;
     display: flex;
-    flex-direction: column;
+    flex-direction: column ;
     justify-content: center;
-    background: url(../images/shutterstock_1169699956\ 2.png);
+    background: url(../images/shutterstock_1169699956\ 1.png);
     background-size: cover;
 }
 
@@ -24,7 +24,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0px;
     gap: 20px;
 }
 
@@ -50,18 +49,16 @@
 }
 
 .text-box {
-    margin: auto;
- }
- 
- .footer-text {
-     padding: 40px;
- }
- 
- .footer {
-   text-align: center;
- }
+   margin: auto;
+}
 
+.footer-text {
+    padding: 40px;
+}
 
+.footer {
+  text-align: center;
+}
 
 .footer_main {
     width: 232px;
@@ -74,6 +71,13 @@
     letter-spacing: -0.32px;
 }
 
+/* Back */
+.activation-code {
+    width: 440px;
+    min-height: auto;
+    margin: auto;
+
+}
 .back-img {
     display: flex;
     align-items: center;
@@ -97,6 +101,7 @@
     display: flex;
     flex-direction: row;
     align-items: center;
+    padding-top: 70px;
 }
 
 .back-text {
@@ -111,13 +116,7 @@
     line-height: 24px;
     padding-left: 12px;
 }
-/* comfirm password */
 
-.forgot-login {
-    width: 440px;
-    min-height: auto;
-    margin: auto;
-}
 .comfirm-container {
     width: 440px;
     min-height: 270px;
