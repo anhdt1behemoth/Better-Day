@@ -16,7 +16,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background: url(../images/shutterstock_1169699956\ 2.png);
+    background: url(../images/shutterstock_1169699956\ 1.png);
     background-size: cover;
 }
 
@@ -61,8 +61,6 @@
    text-align: center;
  }
 
-
-
 .footer_main {
     width: 232px;
     font-family: 'be Vietnam 100',sans-serif;
@@ -78,11 +76,11 @@
     display: flex;
     align-items: center;
     padding-left: 15px;
-    cursor: pointer;
     width: 40px;
     min-height: 40px;
     border: 1px solid #88B946;
     border-radius: 100px;
+    cursor: pointer;
 }
 
 .back-img p {
@@ -111,166 +109,95 @@
     line-height: 24px;
     padding-left: 12px;
 }
-/* comfirm password */
+
+
+/* Config */
 
 .forgot-login {
     width: 440px;
     min-height: auto;
     margin: auto;
 }
-.comfirm-container {
+
+
+.config-images {
+   text-align: center;
+    padding-top: 40px;
+}
+.images-lock p{
+    width: 160px;
+    min-height: 160px;
+    background: url(../images/Frame\ 139\ \(1\).png);
+    display: inline-block;
+}
+
+.form-control {
     width: 440px;
-    min-height: 270px;
-    padding-top: 93px;
-}
-
-.comfirm-code {
-
-    min-height: 32px;
-}
-.text-actived span {
-    font-family: 'be Vietnam 100' ,sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 24px;
-    line-height: 32px;
-    letter-spacing: -0.32px;
-}
-
-.text-actived {
-    text-align: center;
-    min-height: 32px;
-}
-
-.alert-code {
-    width: 100%;
+    min-height: 320px;
     padding-top: 12px;
 }
 
-.alert {
-    width: 440px;
-    min-height: 48px;
+.config-new {
+    width: auto;
+    min-height: 32px;
     text-align: center;
 }
 
-.alert span {
-    font-family: 'be Vietnam 100' ,sans-serif;
-    font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    color: #6A6969;
-    letter-spacing: -0.32px;
-}
-
-.border-input {
-    width: 440px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-}
-.border-code {
-    width: 440px;
-    margin: auto;
-    min-height: 60px;
-    padding: 24px;
-}
-
-
-.border{
-    display: flex;
-    align-items: center;
-    padding-left: 9px;
-    width: 45px;
-    min-height: 60px;
-    border:#EBEBEB solid 1px;
-    border-radius: 8px;
-    background: #FDFDFD ;
-}
-
-.number-input {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-}
-
-/* Button */
-
-.click {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    padding: 40px 50px;
-    gap: 8px;
-}
-
-.click-btn .secondary{
-    width: 440px;
-    min-height: 44px;
-    background: #88B946;
-    border: 1px solid #88B946;
-    cursor: pointer;
-    border-radius: 8px;
-    color: #FFFFFF;
-    font-family: 'be Vietnam 100' ,sans-serif;
-    font-style: normal;
-    font-weight: 600;
-    font-size: 14px;
-    line-height: 20px;
-    
-}
-
-
-
-.register-text {
-    width: 440px;
-    min-height: 20px;
-}
-
-.register-text .register {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    padding: 0px;
-    gap: 4px;
-    justify-content: center;
-}
-
-.text-reg #text-reg {
-    font-family: 'be Vietnam 100';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 20px;
-    letter-spacing: -0.15px;
-    color: #333332;
-}
-
-.text-reg {
-    min-height: 20px;
-}
-
-.btn-reg {
-    width: 88px;
-    min-height: 20px;
-}
-
-.btn-reg #btn-reg {
-    font-family: 'be Vietnam 100';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    color: #88B946;
-    cursor: pointer;
-}
-
-#input-number {
-    width: 27px;
+.password-new span{
+    width: 248px;
     min-height: 32px;
     font-family: 'be Vietnam 100',sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 24px;
     line-height: 32px;
-    border: #FFFFFF 1px solid;
+    letter-spacing: 0.36px;
+    color: #333332;
+}
+
+.form-input {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+    width: 440px;
+    min-height: 84px;
+    padding-top: 12px;
+}
+
+.input-design {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.design #fname {
+    width: 440px;
+    min-height: 52px;
+    padding: 14px 0px 14px 20px;
+    color: #A0A6B0;
+    font-family: 'be Vietnam 100' ,sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: -0.15px;
+}
+
+.design-logo {
+    position: absolute;
+    margin-left: 400px;
+}
+
+.again #btn-reg{
+    width: 440px;
+    min-height: 52px;
+    background: #88B946;
+    color: #FFFFFF;
+    border: 1px solid #88B946;
+    border-radius: 8px;
+}
+
+.btn-reg {
+    padding-top: 32px;
 }
