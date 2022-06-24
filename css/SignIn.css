@@ -11,11 +11,12 @@
     width: 100vw;
 }
 
-.content-images {
+.sign-images {
     width: 50%;
     display: flex;
     flex-direction: column ;
-    background: url(../images/shutterstock_1169699956\ 2.png);
+    justify-content: center;
+    background: url(../images/shutterstock_1169699956\ 1.png);
     background-size: cover;
 }
 
@@ -23,7 +24,6 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 0px;
     gap: 20px;
 }
 
@@ -72,13 +72,11 @@
 }
 
 /* Right */
-
-.right-login {
+.sign-in{
     width: 440px;
     min-height: auto;
     margin: auto;
 }
-
 .images {
     width: 106px;
     min-height: 106px;
@@ -88,14 +86,11 @@
 }
 
 .right-text {
-    display: flex;
-    justify-content: center;
+    text-align: center;
     padding: 24px;
 }
 
-.text-care {
-    width: 244px;
-}
+
 
 .text-care span {
     font-family: 'be Vietnam 100',sans-serif;
@@ -116,18 +111,17 @@
 }
 
 .border-connect_box {
-    width: 440px;
-    min-height: 48px;
     display: flex;
     flex-direction: row;
     align-items: flex-start;
+    gap: 16px;
 }
 
 .connect {
     width: 192px;
     min-height: 48px;
     display: flex;
-    margin: 12px 10px;
+
     flex-direction: row;
     justify-content: center;
     align-items: center;
@@ -156,6 +150,7 @@
     display: flex;
     flex-direction: row;
     align-items: flex-start;
+    padding: 32px 0;
     gap: 4px;
 }
 
@@ -267,8 +262,6 @@
 }
 
 .login-btn {
-    width: 440px;
-    min-height: 104px;
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -299,7 +292,7 @@
 
 .btn-control img {
     position: absolute;
-    padding-left: 118px;
+    padding-left: 103px;
 }
 
 .btn-control #btn-success{
@@ -318,11 +311,9 @@
 }
 
 .register-text {
-   width: 440px;
-    min-height: 20px;
     display: flex;
     justify-content: center;
-    
+    padding: 40px;
 }
 
 .register {

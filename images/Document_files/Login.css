@@ -1,0 +1,192 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100&display=swap');
+
+.container {
+    display: flex;
+    height: 100vh;
+    width: 100vw;
+}
+
+.content-images {
+    width: 50%;
+    background: url(../images/shutterstock_1169699956\ 2.png);
+    background-size: cover;
+}
+
+.heading-primary {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    gap: 20px;
+}
+
+.heading-primary_main {
+        display: block;
+        color: #FFFFFF;
+        font-family: 'be Vietnam 100' ,sans-serif;
+        font-size: 40px;
+        font-weight: 600;
+        line-height: 44px;
+        text-align: center;
+        letter-spacing: 0.36px;
+    }
+
+.heading-primary_sub {
+        display: block;
+        color: #FFFFFF;
+        font-family: 'be Vietnam 100' ,sans-serif;
+        font-size: 40px;
+        font-weight: 600;
+        line-height: 44px;
+        letter-spacing: 0.36px;
+}
+
+.text-box {
+    padding-top: 450px;
+}
+
+.footer-text {
+    text-align: center;
+}
+
+.footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 480px;
+    padding-left: 320px;
+    gap: 32px;
+}
+
+.footer_main {
+    width: 232px;
+    font-family: 'be Vietnam 100',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    color: #FFFFFF;
+    letter-spacing: -0.32px;
+}
+
+/* Right */
+
+.right-login {
+    width: 50%;
+    min-height: auto;
+    padding-top: 70px;
+    padding-left: 140px;
+}
+
+.right-images{
+    width: 106px;
+    min-height: 106px;
+
+}
+
+.images {
+    width: 106px;
+    min-height: 106px;
+    margin-left: 167px;
+    background: url(../images/image\ 2.png);
+    background-size: cover;
+}
+
+.right-text {
+    width: 100%;
+    min-height: 32px;
+    margin: 12px 104px;
+}
+
+.text-care {
+    width: 244px;
+}
+
+.text-care span {
+    font-family: 'be Vietnam 100',sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 32px;
+}
+.fb-icons {
+    width: 20px;
+    min-height: 20px;
+}
+.icons {
+    width: 20px;
+    min-height: 20px;
+    background: url(../images/fb.png);
+    background-size: cover;
+}
+
+.border-connect_box {
+    width: 440px;
+    min-height: 48px;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
+
+.connect {
+    width: 136px;
+    min-height: 48px;
+    display: flex;
+    margin: 12px 16px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border: 1px solid #EBEBEB;
+}
+
+
+.icons-google {
+    width: 20px;
+    min-height: 20px;
+    background: url(../images/google.png);
+    background-size: cover;   
+}
+
+.icons-zalo {
+    width: 20px;
+    min-height: 20px;
+    background: url(../images/logo-zalo.jpeg);
+    background-size: cover;
+}
+
+
+.gap {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 4px 12px;
+    gap: 4px;
+}
+
+.brick {
+    position: absolute;
+    width: 440px;
+    min-height: 0px;
+}
+.brick-line {
+    border: 1px solid #EBEBEB;
+}
+.brick-text span {
+    width: 61px ;
+    min-height: 32px;
+    background: #FFFFFF;
+}
+
+.brick-text {
+   width: 61px ;
+   min-height: 32px;
+   position: relative;
+   padding-left: 180px;
+   margin-top: -10px;
+}
