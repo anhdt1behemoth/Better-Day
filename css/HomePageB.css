@@ -1,85 +1,67 @@
-* {
-    padding: 0;
+*{
     margin: 0;
+    padding: 0;
     box-sizing: border-box;
 }
+
 @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100&display=swap');
 
-.container {
+.home-page {
     background: #F3F5F7;
+    min-height: 52px;
+    display: flex;
+    align-items: center;
 }
-.container-grid {
-    margin: auto;
-}
-
 .header {
     display: flex;
-    flex-direction: row;
     justify-content: space-between;
-    width: auto;
-    min-height: 52px;
-    padding: 0px 165px;
-    background: #F3F5F7;
+    align-items: center;
 }
 
-.grid-col {
+.heading-logo {
     display: flex;
     flex-direction: row;
     align-items: center;
-    gap: 8px;
 }
 
 .grid-col .heading-secondary {
-    font-family: 'be Vietnam 100' , sans-serif;
+    color: #A0A6B0;
+    font-family: 'be Vietnam 100',sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    letter-spacing: -0.15px;
-    color: #A0A6B0;
+    line-height: 20px;  
 }
 
-.header-logo {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    width: 128px;
-    min-height: 20px;
+.heading-logo .row {
     gap: 20px;
 }
-
-.header-logo .col-4 {
-    display: flex;
-    flex-direction: row;
-    gap: 16px;
-}
-.col-4 .col-1 {
-    width: 18px;
-    max-height: 18px;
-}
-
-.header-click {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
-
 #btn-success {
-    width: 17.1em;
+    width: 171px;
     min-height: 52px;
     background: #88B946;
-    color: #ffffff;
-    border: #88B946 1px solid;
+    color: #FFFFFF;
+    border: 1px solid #88B946;
 }
-.images-present{
-    padding-top: 32px;
+
+.logo-better {
+    display: flex;
+    align-items: center;
+    background: wheat;
+    min-height: 96px;
+}
+
+.home-about {
+    display: flex;
+    flex-direction: row;
+}
+.logo-better {
+    background: #FFFFFF;
 }
 .images-better {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0px 165px;
-    width: auto;
     background: #FFFFFF;
     min-height: 96px;
 
@@ -88,6 +70,7 @@
 .images {
     width: 80px;
     min-height: 80px;
+    margin: 16px 0;
 }
 
 .images p {
@@ -187,6 +170,7 @@ color: #333332;
     opacity: 0.6;
     border: 1px solid #FFFFFF;
     transform: rotate(90deg);
+    margin: 16px 0;
 }
 
 
@@ -205,18 +189,22 @@ color: #333332;
 }
 
 .nav-menu_item {
-    width: auto;
-    min-height: 80px;
-    background: #3267D9;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 0 163px;
+}
+.navigation-menu {
+    display: flex;
+    align-items: center;
+    min-height: 80px;
+    background: #3267D9;
+}
+.mobi-heading {
+    display: none;
 }
 
-.header-banner {
-    width: auto;
+.banner-home {
     min-height: 315px;
     background: linear-gradient(180deg, rgba(255, 255, 255, 0) -20.94%, rgba(55, 81, 113, 0.16626) -20.94%, rgba(8, 46, 92, 0.528) 187.94%),url(../images/shutterstock_1463056853\ 2.png);
     background-size: cover;
@@ -237,12 +225,9 @@ color: #333332;
     letter-spacing: 0.36px;
 }
 
-/* Price Table */ 
-
-.text_table {
-    width: auto;
+/* Table Price*/
+.table-price {
     background: #F3F5F7;
-    min-height: 1055px;
     padding-top: 64px;
 }
 
@@ -257,15 +242,12 @@ color: #333332;
     text-align: center;
 }
 
-.table_light table {
-    border: 1px solid black;
-}
 .box-text {
-    padding-top: 32px;
+    padding: 20px;
     text-align: center;
 }
 .box-text span{
-    font-family: 'be Vietnam 100';
+    font-family: 'be Vietnam 100' ,sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 20px;
@@ -280,32 +262,26 @@ color: #333332;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 16px 165px;
 }
 
-.tb-table {
-    width: 540px;
-    height: 825px;
-    border: 1px solid #F3F5F7;
-    padding: 16px;
-}
+
 
 table {
-    width: 100%;
-    height: 100%;
     text-align: center;
     border-collapse: collapse;
 }
 
-table ,th , tr , td{
-    border: #A0A6B0 solid 1px;
+.table-grid {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    gap: 16px;
+    padding: 20px 0px;
 }
-/*present*/
 
-.present{
-    width: auto;
-    min-height: 1246px;
-}
+/* profile */
+
+
 
 .present-primary {
     display: flex;
@@ -313,6 +289,7 @@ table ,th , tr , td{
     text-align: center;
     padding-top: 66px;
     gap: 12px;
+    
 }
 
 .present-primary_main {
@@ -342,7 +319,6 @@ table ,th , tr , td{
 }
 
 .present-col {
-    padding: 0px 163px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -398,23 +374,28 @@ table ,th , tr , td{
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    padding: 40px 165px;
+    padding-top: 32px;
+}
+
+
+.img-col img {
+    border: 1px solid #FFFFFF;
+    border-radius: 180px;
 }
 
 /* Footer */
-
-
-.calendar {
-    width: auto;
+.footer-input {
     height: 480px;
     background: linear-gradient(180deg, rgba(255, 255, 255, 0) -20.94%, rgba(55, 81, 113, 0.2771) -20.94%, #082E5C 119.17%), url(../images/shutterstock_736552108\ 1.png);
     background-size: cover;
-   padding: 70px 165px;
 
 }
 
+.calendar {
+    padding-top: 70px;
+}
+
 .calendar-input {
-    min-height: 340px;
     background: #FFFFFF;
     border-radius: 12px;
     box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.05);
@@ -528,7 +509,7 @@ table ,th , tr , td{
     border-radius: 8px;
 }
 
-.question {
+.footer-questions {
     width: auto;
     min-height: 713px;
     background: url(../images/shutterstock_1711921201\ 1.png);
@@ -538,7 +519,6 @@ table ,th , tr , td{
 .question-primary {
     display: flex;
     flex-direction: column;
-    padding-left: 165px;
     padding-top: 90px;
     gap: 12px;
 }
@@ -564,7 +544,6 @@ table ,th , tr , td{
     width: auto;
 }
 .question-select {
-    padding-left: 165px;
     padding-top: 32px;
 }
 
@@ -582,16 +561,15 @@ table ,th , tr , td{
     letter-spacing: -0.32px;
 }
 .question-text {
-    padding-left: 189px;
+    padding-left: 34px;
     padding-top: 16px;
 }
 
 .question-text_main {
-    width: 540px;
+    width: 444px;
     min-height: 72px;
 }
 .question-more {
-    padding-left: 165px;
     padding-top: 32px;
 }
 
@@ -632,17 +610,16 @@ table ,th , tr , td{
     background: url(../images/image\ 28.png);
 }
 
-.introduce {
-    width: auto;
+.footer-maps {
     min-height: 396px;
     background: #0B1F31;
 }
 
 .introduce-maps {
+    padding-top: 80px;
     display: flex;
     flex-direction: row;
     justify-content: space-between ;
-    padding: 80px 165px;
 }
 
 .introduce-text {
@@ -724,7 +701,6 @@ table ,th , tr , td{
     flex-direction: row;
     justify-content: space-between;
     align-items: center;
-    padding: 0px 165px;
 }
 
 .footer-logo {
@@ -746,211 +722,31 @@ table ,th , tr , td{
     letter-spacing: -0.15px;
 }
 .mobi-heading {
-    display: none;
+    display: none }
+
+.logo-icons {
+    display: flex;
+    gap: 20px;
 }
-/* @media screen and (min-width: 789px){
 
-    * {
-        padding: 0;
-        margin: 0;
-        box-sizing: border-box;
-    }
-    @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100&display=swap');
-    .header {
+/* Responsive */
+
+@media screen and (max-width: 1024px) { 
+    .home-page {
         display: none;
     }
-    .images-better {
-        display:none;
+    .logo-better {
+        display: none;
     }
-
     .nav-menu {
         display: none;
     }
     .login_btn {
         display: none;
     }
-
     .mobi-heading {
-        width: 100vh;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-    }
-
-    .heading-logo {
-        width: 40px;
-        min-height: 40px;
-        background: url(../images/image\ 28.png);
-        background-size: cover
-        
-    }
-    .heading-icon_drop {
-        width: 20px;
-        min-height: 16px;
-    }
-
-    .heading-search {
-        width: 20.75px;
-        min-height: 20.75px;
-    }
-
-    .heading-search p{
-        width: 20.75px;
-        min-height: 20.75px;
-        background: url(../images/search.png);
-        background-size: cover;
-    }
-
-    .heading-icon_drop p {
-        width: 20px;
-        min-height: 16px;
-        background: url(../images/combo\ shape.png);
-        background-size: cover;
-    }
-    .box-table {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        flex-wrap: wrap;
-    }
-
-    .present-text {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    .img-col {
-        text-align: center;
-    }
-    .calendar {
-        padding: 70px 215px; 
-        height: 1016px;
-    }
-    .calendar-input {
-        width: auto;
-        height: 886px;
-    }
-
-    .calendar-logo {
-        display: flex;
-        flex-direction: column;
-        padding: 12px;
-    }
-    .profile {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .input-primary {
-        display: flex;
-        flex-direction: row;
-    }
-    #btn-success_main {
-        width: 246px;
-    }
-    .introduce-maps {
-        display: flex;
-        flex-direction: column;
-        gap: 16px;
-    }
-    .header-logo {
-        display: none;
-    }
-    .footer-copyright {
-        width: auto;
-        min-height: 52px; 
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-    }
-    .present_del {
-        display: none;
-    }
-    .question-select #fquery {
-        width: 300px;
-    }
-    .more-primary_text {
-        width: 300px;
-        padding: 0px 0px;
-    }
-    .more-primary_horizontal p {
-        width: 300px;
-    }
-    .present-primary_del {
         display: inline;
     }
-
-    .present-inline {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        padding: 0px 165px;
-    }
-
-    .present-primary_sub {
-        font-family: 'be Vietnam 100';
-        font-style: normal;
-        font-weight: 600;
-        font-size: 14px;
-        line-height: 20px;
-    }
-
-    .present-primary_del {
-        font-family: 'be Vietnam 100';
-        font-style: normal;
-        font-weight: 600;
-        font-size: 14px;
-        line-height: 20px;
-        text-align: center;
-        letter-spacing: -0.15px;
-        color: #6A6969;
-    }
-
-    .present-primary_sub:hover {
-        padding: 8px;
-        border-radius: 100px;
-        background: rgba(136, 185, 70, 0.15);
-    }
-    .present-primary_del:hover {
-        padding: 8px;
-        border-radius: 100px;
-        background: rgba(136, 185, 70, 0.15);
-    }
-    .question-text_main {
-       width: 300px;
-    }
-} */
-
-@media screen and (max-width: 1024px) {
-    * {
-        padding: 0;
-        margin: 0;
-        box-sizing: border-box;
-    }
-    @import url('https://fonts.googleapis.com/css2?family=Be+Vietnam+Pro:wght@100&display=swap');
-    .header {
-        display: none;
-    }
-    .images-better {
-        display:none;
-    }
-
-    .nav-menu {
-        display: none;
-    }
-    .login_btn {
-        display: none;
-    }
-
-    .mobi-heading {
-        width: 100vh;
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-    }
-
     .heading-logo {
         width: 40px;
         min-height: 40px;
@@ -983,121 +779,5 @@ table ,th , tr , td{
     }
     .box-table {
         flex-wrap: wrap;
-    }
-
-    .present-text {
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-    }
-    .img-col {
-        text-align: center;
-    }
-    .calendar {
-        padding: 70px 215px; 
-        height: 1016px;
-    }
-    .calendar-input {
-        width: auto;
-        height: 886px;
-    }
-
-    .calendar-logo {
-        display: flex;
-        flex-direction: column;
-        padding: 12px;
-    }
-    .profile {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .input-primary {
-        display: flex;
-        flex-direction: row;
-    }
-    #btn-success_main {
-        width: 380px;
-    }
-    .introduce-maps {
-        display: flex;
-        flex-direction: column;
-        gap: 16px;
-    }
-    .header-logo {
-        display: none;
-    }
-    .footer-copyright {
-        width: auto;
-        min-height: 52px; 
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-    }
-    .present_del {
-        display: none;
-    }
-    .question-select #fquery {
-        width: 300px;
-    }
-    .more-primary_text {
-        width: 300px;
-        
-    }
-    .more-primary_horizontal p {
-        width: 300px;
-    }
-    .present-primary_del {
-        display: inline;
-    }
-
-    .present-inline {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        padding: 0px 165px;
-        gap: 31px;
-    }
-
-    .present-primary_sub {
-        font-family: 'be Vietnam 100';
-        font-style: normal;
-        font-weight: 600;
-        font-size: 14px;
-        line-height: 20px;
-    }
-
-    .present-primary_del {
-        font-family: 'be Vietnam 100';
-        font-style: normal;
-        font-weight: 600;
-        font-size: 14px;
-        line-height: 20px;
-        text-align: center;
-        letter-spacing: -0.15px;
-        color: #6A6969;
-    }
-
-    .present-primary_sub:hover {
-        padding: 8px 21.5px;
-        border-radius: 100px;
-        background: rgba(136, 185, 70, 0.15);
-    }
-    .present-primary_del:hover {
-        padding: 8px 21.5px;
-        border-radius: 100px;
-        background: rgba(136, 185, 70, 0.15);
-    }
-    .question-text_main {
-       width: 300px;
-    }
-    .profile #fname {
-        width: 380px;
-    }
-    .input-primary {
-        width: 380px;
-    }
-    .profile #fhours {
-        width: 181.5px;
     }
 }
