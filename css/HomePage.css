@@ -462,12 +462,12 @@ table ,th , tr , td{
     width: 100%;
     display: flex;
     flex-direction: row;
-    align-items: center;
+    flex-wrap: wrap;
     gap: 16px;
 }
 
 .profile #fname {
-    width: 241px;
+    width: 323px;
     min-height: 52px;
     background: #FDFDFD;
     border: 1px solid #EBEBEB;
@@ -993,14 +993,8 @@ table ,th , tr , td{
     .img-col {
         text-align: center;
     }
-    .calendar {
-        padding: 70px 215px; 
-        height: 1016px;
-    }
-    .calendar-input {
-        width: auto;
-        height: 886px;
-    }
+  
+    
 
     .calendar-logo {
         display: flex;
@@ -1092,10 +1086,10 @@ table ,th , tr , td{
        width: 300px;
     }
     .profile #fname {
-        width: 380px;
+        width: 323px;
     }
     .input-primary {
-        width: 380px;
+        width: 323px;
     }
     .profile #fhours {
         width: 181.5px;
