@@ -118,7 +118,16 @@ color: #333332;
     flex-direction: row;
     align-items: center;
 }
-
+.nav-menu_item {
+    width: auto;
+    min-height: 80px;
+    background: #3267D9;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+}
 .heading-about{
     display: flex;
     flex-direction: column;
@@ -188,12 +197,6 @@ color: #333332;
     line-height: 24px;
 }
 
-.nav-menu_item {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-}
 .navigation-menu {
     display: flex;
     align-items: center;
@@ -325,7 +328,8 @@ table {
 }
 
 .img-col {
-    width: 267px;
+    width: 100%;
+    text-align: center;
     min-height: 145px;
 }
 
@@ -388,7 +392,6 @@ table {
     height: 480px;
     background: linear-gradient(180deg, rgba(255, 255, 255, 0) -20.94%, rgba(55, 81, 113, 0.2771) -20.94%, #082E5C 119.17%), url(../images/shutterstock_736552108\ 1.png);
     background-size: cover;
-
 }
 
 .calendar {
@@ -402,17 +405,24 @@ table {
 }
 
 .calendar-logo {
-    width: auto;
+    width: 100%;
     min-height: 340px;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 50px;
+    padding: 12px;
+}
+.introduce-col {
+    width: 42%;
+}
+
+.profile-input_primary {
+    width: 50%;
 }
 
 .logo-who {
-    position: relative;
-    width: 215px;
+    position: absolute;
+    width: 50%;
     min-height: 192px;
     background: url(../images/VectorHo.png);
     background-size: cover;
@@ -420,8 +430,8 @@ table {
 }
 
 .calendar-text {
-    position: absolute;
-    width: 215px;
+    position: relative;
+    width: 100%;
     min-height: 132px;
 }
 
@@ -436,28 +446,33 @@ table {
 }
 
 
-
-
+.profile-calendar {
+    width: 100%;
+}
 
 .profile {
     width: 100%;
     display: flex;
     flex-direction: row;
-    align-items: center;
     gap: 16px;
 }
+.cal {
+    width: 48%;
+}
 
+.profile-input {
+ width: 100%;
+}
 .profile #fname {
-    width: 241px;
+    width: 100%;
     min-height: 52px;
     background: #FDFDFD;
     border: 1px solid #EBEBEB;
     padding: 16px 20px;
-    font-family: 'be Vietnam 100';
+    font-family: 'be Vietnam 100' ,sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
-    line-height: 20px;
     letter-spacing: -0.15px;
     color: #A0A6B0;
     border-radius: 8px;
@@ -472,7 +487,7 @@ table {
 }
 
 .profile #fhours {
-    width: 112.5px;
+    width: 100%;
     min-height: 52px;
     background: #FDFDFD;
     border: 1px solid #EBEBEB;
@@ -487,16 +502,16 @@ table {
     border-radius: 8px;
 }
 .input-primary {
+    width: 100%;
     display: flex;
     flex-direction: row;
     gap: 16px;
 }
 .profile-click {
-    text-align: center;
     padding-top: 16px;
 }
 #btn-success_main {
-    width: 755px;
+    width: 100%;
     min-height: 48px;
     background: #88B946;
     border: 1px solid #FFFFFF;
@@ -510,7 +525,7 @@ table {
 }
 
 .footer-questions {
-    width: auto;
+    width: 100%;
     min-height: 713px;
     background: url(../images/shutterstock_1711921201\ 1.png);
     background-size: cover;
@@ -540,15 +555,12 @@ table {
     line-height: 40px;
     letter-spacing: 0.36px;
 }
-.copyright {
-    width: auto;
-}
 .question-select {
     padding-top: 32px;
 }
 
 .question-select #fquery {
-    width: 540px;
+    width: 40%;
     min-height: 56px;
     background: #163B9D;
     padding: 0px 32px;
@@ -565,8 +577,9 @@ table {
     padding-top: 16px;
 }
 
+
 .question-text_main {
-    width: 444px;
+    width: 35%;
     min-height: 72px;
 }
 .question-more {
@@ -574,18 +587,18 @@ table {
 }
 
 .more {
-    width: 540px;
+    width: 40%;
     min-height: 280px;
 }
 
 .more-primary_horizontal p {
-    width: 539px;
+    width: 100%;
     min-height: 0px;
     border: 1px solid rgba(50, 103, 217, 0.15);
 }
 
 .more-primary_text {
-    width: 540px;
+    width: 100%;
     min-height: 56px;
     display: flex;
     flex-direction: row;
@@ -616,14 +629,16 @@ table {
 }
 
 .introduce-maps {
+    width: 100%;
     padding-top: 80px;
     display: flex;
     flex-direction: row;
     justify-content: space-between ;
+    gap: 32px;
 }
 
 .introduce-text {
-    width: 365px;
+    width: 100%;
     min-height: 48px;
     padding-top: 14px;
 }
@@ -639,7 +654,6 @@ table {
 }
 
 .introduce-profile {
-    width: 312px;
     min-height: 92px;
     display: flex;
     flex-direction: column;
@@ -669,7 +683,6 @@ table {
 }
 
 .suport {
-    width: 161px;
     min-height: 140px;
     display: flex;
     flex-direction: column;
@@ -692,11 +705,12 @@ table {
     flex-direction: column;
     gap: 78px;
 }
-
-.footer-copyright {
-    width: auto;
-    min-height: 52px;
+.footer-end {
+    width: 100%;
     background:  #3267D9;
+}
+.footer-copyright {
+    min-height: 52px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -779,5 +793,150 @@ table {
     }
     .box-table {
         flex-wrap: wrap;
+    }
+    .mobi-heading {
+        width: 100vh;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between; 
+        flex-wrap: wrap;
+    }
+    .table-grid {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .present-text {
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+    .present_del {
+        display: none;
+    }
+
+    .present-primary_sub {
+        font-family: 'be Vietnam 100';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .present-primary_del {
+        display: inline;
+        font-family: 'be Vietnam 100';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 20px;
+    }
+    .present-inline {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 31px;
+    }
+
+    .footer-input{
+        width: 100%;
+        height: 1016px;
+    }
+    .calendar-input {
+        width: 100%;
+        height: 886px;
+    }
+
+    .calendar-logo {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .profile {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+    }
+
+    .input-primary {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+    }
+    #btn-success_main {
+        width: 100%;
+    }
+
+    .introduce-maps {
+        display: flex;
+        flex-direction: column;
+        gap: 16px;
+    }
+    .present-primary_sub:hover {
+        padding: 8px 21.5px;
+        border-radius: 100px;
+        background: rgba(136, 185, 70, 0.15);
+    }
+    .present-primary_del:hover {
+        padding: 8px 21.5px;
+        border-radius: 100px;
+        background: rgba(136, 185, 70, 0.15);
+    }
+    .logo-who {
+        width: 32%;
+    }
+    .cal {
+        width: 100%;
+    }
+
+    .calendar-text {
+        width: 28%;
+    }
+
+    .profile-input_primary {
+        width: 47%;
+    }
+
+    .profile-click {
+        width: 100%;
+    }
+    .more {
+        width: 87%;
+    }
+    .question-text_main {
+        width: 87%;
+    }
+    .question-select #fquery{
+        width: 87%;
+    }
+    .header-logo {
+        display: none;
+    }
+
+    .footer-copyright {
+       display: flex;
+       flex-direction: row;
+       justify-content: center;
+    }
+    .images-suport {
+        padding-bottom: 20px;
+    }
+}
+
+
+@media screen and (min-width: 375px) { 
+    .calendar-text {
+        width: 68%;
+    }
+    .logo-who {
+        width: 11%;
+    }
+    .introduce-col {
+        width: 55%;
     }
 }
